@@ -18,7 +18,6 @@ print(max_num1(-5, -10, -10))
 print(max_num1(2, 3, 3))
 # prints "It's a tie!"
 
-
 # ** other type of max_num **
 def max_num2(nums):
   max_num = nums[0]
@@ -29,6 +28,4 @@ def max_num2(nums):
 
 print(max_num2([50, -10, 0, 75, 20]))
 
-# Also, max() is an easier option.
-
-
+ #also, max() is an easier option
