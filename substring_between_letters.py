@@ -1,3 +1,6 @@
+# print the string inbetween the allocated letters, 
+# if a letter does not match it will fuly print.
+
 def substring_between_letters(word, start, end):
   start_ind = word.find(start)
   end_ind = word.find(end)
@@ -5,9 +8,7 @@ def substring_between_letters(word, start, end):
     return (word[start_ind+1:end_ind])
   return word
 
-
-# Uncomment these function calls to test your function:
 print(substring_between_letters("apple", "p", "e"))
-# should print "pl"
+# prints: "pl"
 print(substring_between_letters("apple", "p", "c"))
-# should print "apple"
+# prints: "apple"

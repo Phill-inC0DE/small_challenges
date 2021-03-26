@@ -1,4 +1,7 @@
 # small_challenges
-Recent completed challenges via Codecademy
+[Recent completed challenges via Codecademy]
 
-Updated 25.03.21
+Language: Python
+ALL CHALLENGES WHERE MADE IN PRACTICE.
+
+Updated 26.03.21

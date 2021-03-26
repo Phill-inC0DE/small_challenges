@@ -1,3 +1,5 @@
+# add up the lists then compares the two and returns the larger sum.
+
 def larger_sum(lst1, lst2):
   list1 = 0
   list2 = 0
@@ -9,6 +11,8 @@ def larger_sum(lst1, lst2):
     return lst1
   else:
     return lst2
+
+# OR
 
 def larger_sum1(lst1, lst2):
     sum1 = sum(lst1)

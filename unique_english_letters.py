@@ -1,3 +1,5 @@
+# Counts how many unique characters are in the allocated string.
+
 letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 def unique_english_letters(word):
   counter = 0
@@ -8,8 +10,7 @@ def unique_english_letters(word):
   counter += len(letter_lst)
   return counter   
 
-# Uncomment these function calls to test your function:
 print(unique_english_letters("mississipi"))
-# should print 4
+# prints: 4
 print(unique_english_letters("Apple"))
-# should print 4
+# prints: 4

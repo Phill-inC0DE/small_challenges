@@ -1,9 +1,10 @@
+# counts how many time a pattern of string characters appears in a word.
+
 def count_multi_char_x(word, x):
   splits = word.split(x)
   return (len(splits)-1) 
 
-# Uncomment these function calls to test your function:
 print(count_multi_char_x("mississippi", "iss"))
-# should print 2
+# prints: 2
 print(count_multi_char_x("apple", "pp"))
-# should print 1
+# prints: 1

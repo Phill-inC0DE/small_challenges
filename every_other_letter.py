@@ -4,7 +4,6 @@ def every_other_letter(word):
     every_other += word[letter]
   return every_other
 
-# Uncomment these function calls to test your function:
 print(every_other_letter("Codecademy"))
 # should print Cdcdm
 print(every_other_letter("Hello world!"))
