@@ -1,10 +1,11 @@
-# Write your check_for_name function here:
+# Checks if the given name is in the first string, if not it will return false.
+
 def check_for_name(sentence, name):
   return name.lower() in sentence.lower()
 
 print(check_for_name("My name is Jamie", "Jamie"))
-# should print True
+# prints: True
 print(check_for_name("My name is jamie", "Jamie"))
-# should print True
+# prints: True
 print(check_for_name("My name is Samantha", "Jamie"))
-# should print False
+# prints: False
