@@ -1,3 +1,5 @@
+# counts how many times a character appears in a string.
+
 def count_char_x(word, x):
   counter = 0
   for letter in word:
@@ -6,6 +8,6 @@ def count_char_x(word, x):
   return counter
 
 print(count_char_x("mississippi", "s"))
-# should print 4
+# prints: 4
 print(count_char_x("mississippi", "m"))
-# should print 1
+# prints: 1
